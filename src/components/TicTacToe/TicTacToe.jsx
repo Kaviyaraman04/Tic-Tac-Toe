@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import './TicTacToe.css';
-import circle from '../assets/circle.png';
-import cross from '../assets/cross.png';
+import circle from '../Assets/circle.png';
+import cross from '../Assets/cross.png';
 
 const TicTacToe = () => {
   const [board, setBoard] = useState(Array(9).fill(null));
